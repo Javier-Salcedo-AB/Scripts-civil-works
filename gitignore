@@ -1,0 +1,21 @@
+### 2. Archivo `.gitignore`
+Este archivo le dice a Git qué archivos **NO** debe subir a GitHub (por ejemplo, archivos temporales, bases de datos locales pesadas o entornos virtuales).
+
+```text
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema operativo (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de datos locales generados por los scripts (para no ensuciar el repositorio)
+registro_densidades_obra.csv
+*.xlsx
